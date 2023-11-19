@@ -1,0 +1,163 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 991px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 720px;
+  }
+  .circle-arrival .circle-box .circle-photo-box .discount-tag {
+    right: 25px;
+  }
+  .email .email-bg input {
+    width: 312px !important;
+  }
+
+  .delivery-text h6,
+  .delivery-text p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .head2 .navbar {
+    flex-wrap: inherit;
+  }
+  ul.navbar-nav li.dropdown .dropdown-menu {
+    display: none !important;
+  }
+  ul.navbar-nav li.dropdown .dropdown-menu.show {
+    display: block !important;
+  }
+  .watch .watch1 {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .service-area .service-box h6 {
+    font-size: 15px;
+  }
+
+  .delivery .delivery-box {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .service-area .service-box {
+    margin-bottom: 20px;
+  }
+  .service-area .service-box h6 {
+    font-size: 18px;
+  }
+  .shopping .shopping-box .digital-watch {
+    transform: inherit;
+    margin-top: 40px;
+  }
+  .testimonial .testimonial-box .testimonial-para::after {
+    left: 65px;
+  }
+  .email .email-bg {
+    padding: 60px 90px;
+  }
+  .foot .footer-up .support {
+    margin-bottom: 30px;
+  }
+  .foot .footer-down {
+    text-align: center;
+  }
+  .footer-down .payment {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .foot .footer-down .footer-para {
+    margin-top: 20px;
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+}
+
+@media (max-width: 980px) {
+  /*no need to change*/
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .watch .owl-carousel .owl-item img {
+    margin: auto;
+  }
+  .email .email-bg {
+    background-position: center right 50%;
+  }
+  .email .email-bg form a {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .delivery .delivery-box .delivery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .best-seller .cloth-box .cloth-photo {
+    bottom: 0;
+    top: 40%;
+  }
+  .shopping {
+    padding-top: 140px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 475px) {
+  .email .email-bg {
+    background-position: center right 40%;
+  }
+  .service-area .service-box h6 {
+    font-size: 15px;
+  }
+  .explore h2 br {
+    display: block;
+  }
+  .delivery .delivery-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 424px) {
+  .service-area .service-box h6 {
+    font-size: 16px;
+  }
+  .email .email-bg {
+    padding: 60px 40px;
+  }
+  .drop {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 411px) {
+}
+
+@media (max-width: 393px) {
+}
+
+@media (max-width: 375px) {
+  .email .email-bg {
+    padding: 60px 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .email .email-bg input {
+    width: 300px !important;
+  }
+}
